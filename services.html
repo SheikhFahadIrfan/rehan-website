@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brand Name | Services</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;600;700&family=Allura&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/services.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">★</span><span>BRAND NAME</span></a>
+
+      <nav class="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn" href="contact.html">Get an Estimate</a>
+        <a class="btn outline" href="contact.html">Design Guide</a>
+        <a class="phone" href="tel:+12145550123">📞 (214) 555-0123</a>
+        <button class="burger" type="button" data-burger aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div class="container drawer" data-drawer>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <div class="drawer-row">
+        <a class="btn" href="contact.html">Get an Estimate</a>
+        <a class="btn outline" href="contact.html">Design Guide</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="kicker">SERVICES</p>
+        <h1 class="title">Outdoor services done right</h1>
+        <p class="sub">Choose a service below. Each project starts with a clear scope and a clean install.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container svc-grid">
+        <article class="svc-card" id="design">
+          <h2>Design</h2>
+          <p>Layout, materials, and plant selection—planned to fit your style and budget.</p>
+          <ul>
+            <li>Concept + layout</li>
+            <li>Materials selection</li>
+            <li>Lighting & planting plan</li>
+          </ul>
+        </article>
+
+        <article class="svc-card" id="landscaping">
+          <h2>Landscaping</h2>
+          <p>Planting, beds, turf upgrades, and clean edge lines that look sharp.</p>
+          <ul>
+            <li>Bed build + mulch</li>
+            <li>Plant installs</li>
+            <li>Seasonal refresh</li>
+          </ul>
+        </article>
+
+        <article class="svc-card" id="hardscaping">
+          <h2>Hardscaping</h2>
+          <p>Patios, walkways, retaining walls—built on proper base prep.</p>
+          <ul>
+            <li>Pavers / stone / concrete</li>
+            <li>Retaining walls</li>
+            <li>Outdoor living</li>
+          </ul>
+        </article>
+
+        <article class="svc-card" id="drainage">
+          <h2>Drainage</h2>
+          <p>Fix standing water and grading issues with proven drainage solutions.</p>
+          <ul>
+            <li>French drains</li>
+            <li>Grading & swales</li>
+            <li>Downspout routing</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="container cta-band">
+        <div>
+          <h3>Not sure what you need?</h3>
+          <p>Send photos + your address. We’ll recommend the right solution.</p>
+        </div>
+        <a class="btn primary" href="contact.html">Get a Quote</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><strong>BRAND NAME</strong><p class="muted">Premium outdoor services.</p></div>
+      <div class="footer-links"><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+      <div class="muted">© <span id="y"></span> Brand Name</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
